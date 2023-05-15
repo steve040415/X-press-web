@@ -2,39 +2,22 @@ body {
     font-family: helvetica;
 }
 .home h1 {
-    color: white;
-    text-align: center;
-    display: block;
     line-height: 250px;
     font-size: 100pt;
 }
 .home h2 {
-    color: white;
-    text-align: center;
-    display: block;
     font-size: 50pt;
-    line-height: 0.5px;
-    position: relative;
-    top: -25%;
+    top: -30%;
     
+
 
 }
 .home {
-    background-color: #92A3A1;
-    border-style: solid;
-    display: block;
     height: 500px;
     background-repeat: no-repeat;
     border-radius: 5%;
     background-image: url("band-image.jpg"); opacity: 0.75;
     background-position: top;
-    border-color: black;
-    
-
- 
-    
-
-    
     
 }
 nav a{
@@ -62,4 +45,26 @@ a:hover {
     opacity: 0.5;
 }
 
+header {
+    background-color: #92A3A1;
+    border-style: solid;
+    display: block;
+    height: 300px;
+    border-radius: 5%;
 
+}
+h1 {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 40pt;
+    line-height: 150px;
+}
+h2 {
+    color: white;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -20%;
+    font-size: 20pt
+}
