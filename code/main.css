@@ -1,23 +1,23 @@
 body {
     font-family: helvetica;
 }
-.home h1 {
-    line-height: 250px;
-    font-size: 100pt;
-}
-.home h2 {
-    font-size: 50pt;
-    top: -30%;
+
     
 
 
-}
+
 .home {
-    height: 500px;
     background-repeat: no-repeat;
     border-radius: 5%;
     background-image: url("band-image.jpg"); opacity: 0.75;
     background-position: top;
+
+    border-style: solid;
+    display: block;
+    height: 500px;
+    max-width: 100%;
+
+
     
 }
 nav a{
@@ -45,26 +45,34 @@ a:hover {
     opacity: 0.5;
 }
 
+.home h1 {
+
+    font-size: 100pt;
+    line-height: 250px;
+    text-align: center;
+}
+.home h2 {
+    top: -30%;
+    font-size: 50pt;
+    text-align: center;
+}
 header {
     background-color: #92A3A1;
-    border-style: solid;
-    display: block;
-    height: 300px;
     border-radius: 5%;
-
+    box-shadow: 1px 1px 1px 1px;
+    height: 150px;
+}
+h2 {
+    color: white;
+    display: block;
+    font-size: 25pt;
+    position: relative;
+    top: -30%;
 }
 h1 {
     color: white;
     display: block;
-    text-align: center;
-    font-size: 40pt;
-    line-height: 150px;
-}
-h2 {
-    color: white;
-    text-align: center;
-    display: block;
-    position: relative;
-    top: -20%;
-    font-size: 20pt
+    font-size: 50pt;
+    //line-height: 150px;
+
 }
