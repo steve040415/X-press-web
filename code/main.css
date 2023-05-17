@@ -57,22 +57,17 @@ a:hover {
     text-align: center;
 }
 header {
-    background-color: #92A3A1;
-    border-radius: 5%;
+
     box-shadow: 1px 1px 1px 1px;
     height: 150px;
 }
 h2 {
-    color: white;
     display: block;
     font-size: 25pt;
     position: relative;
     top: -30%;
 }
 h1 {
-    color: white;
     display: block;
     font-size: 50pt;
-    //line-height: 150px;
-
 }
