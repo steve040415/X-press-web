@@ -9,13 +9,16 @@ body {
 .home {
     background-repeat: no-repeat;
     border-radius: 5%;
-    background-image: url("band-image.jpg"); opacity: 0.75;
+    background-image: url("../Gallery/X-PRESS-1.jpg"); 
+    opacity: 0.75;
     background-position: top;
-
+    color: white;
     border-style: solid;
     display: block;
     height: 500px;
     max-width: 100%;
+    border-radius: 5%;
+    background-color: blue;
 
 
     
@@ -50,24 +53,42 @@ a:hover {
     font-size: 100pt;
     line-height: 250px;
     text-align: center;
+    text-indent: 0%;
 }
 .home h2 {
     top: -30%;
     font-size: 50pt;
     text-align: center;
+    text-indent: 0%;
 }
 header {
 
     box-shadow: 1px 1px 1px 1px;
     height: 150px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 2%;
 }
 h2 {
     display: block;
     font-size: 25pt;
     position: relative;
     top: -30%;
+    text-indent: 5%;
 }
 h1 {
     display: block;
     font-size: 50pt;
+    text-indent: 5%;
+}
+
+video {
+   display: block;
+   margin: auto;
+}
+div {
+    border-style: solid;
+    padding-bottom: 50px;
+    border-width: thin;
+    border-radius: 2%;
 }
