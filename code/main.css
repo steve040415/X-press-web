@@ -16,9 +16,9 @@ body {
     border-style: solid;
     display: block;
     height: 500px;
-    max-width: 100%;
-    border-radius: 5%;
     background-color: blue;
+    width: 100%;
+    margin: auto;
 
 
     
@@ -62,33 +62,38 @@ a:hover {
     text-indent: 0%;
 }
 header {
-
-    box-shadow: 1px 1px 1px 1px;
     height: 150px;
-    width: 300px;
-    background-color: blue;
-    border-radius: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-radius: 20%;
+    border-width: thin;
+    box-shadow: 2px 2px 2px 2px;
+    
+    
 }
 h2 {
     display: block;
     font-size: 25pt;
     position: relative;
-    top: -30%;
-    text-indent: 5%;
+    top: -50%;
+    text-align: center
 }
 h1 {
     display: block;
     font-size: 50pt;
-    text-indent: 5%;
+    text-align: center;
+    position: relative;
+    top: -15%;
 }
 
-video {
+iframe {
    display: block;
    margin: auto;
+   margin-top: 5%;
 }
-div {
-    border-style: solid;
-    padding-bottom: 50px;
-    border-width: thin;
-    border-radius: 2%;
+nav {
+    margin-bottom: 5%;
 }
+
+
