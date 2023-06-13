@@ -152,10 +152,11 @@ nav {
 }
 .switch-box {
     background-color: black;
-    padding: 10%;
+    
     margin: auto;
     border-radius: 25%;
     color: white;
+    max-height: 50%;
 }
 .switch input {
     opacity: 0;
@@ -197,5 +198,27 @@ input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+}
+button {
+    display: none;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: none;
+        box-shadow: none;
+        
+        border-radius: none;
+    }
+    button {
+        display: block;
+
+    }
+ 
+ 
+
 }
 

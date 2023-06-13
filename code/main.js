@@ -15,3 +15,20 @@ function buttonFunction() {
         main.classList.add('dark');
     }
 }
+const dropDown = document.querySelector('button');
+const navList = document.querySelectorAll("nav a");
+dropDown.addEventListener("click", navMenu);
+function navMenu() {
+    if(getComputedStyle(navList[0]).display=='none') {
+        for(let i=0; i<navList.length; i++) {
+            navList[i].style.display = "initial";
+        }
+    }
+    else {
+        for(let i=0; i<navList.length; i++) {
+            navList[i].style.display = "none";
+        }
+    }
+
+
+}
