@@ -17,6 +17,7 @@ function buttonFunction() {
 }
 const dropDown = document.querySelector('button');
 const navList = document.querySelectorAll("nav a");
+const nav = document.querySelector('nav');
 dropDown.addEventListener("click", navMenu);
 function navMenu() {
     if(getComputedStyle(navList[0]).display=='none') {
