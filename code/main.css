@@ -1,4 +1,4 @@
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
     nav a{
         border-style: solid;
         margin: auto;
@@ -19,6 +19,20 @@
     nav {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
+        margin-bottom: none;
+    }
+    .home h1 {
+
+        font-size: 100pt;
+        line-height: 250px;
+        text-align: center;
+        text-indent: 0%;
+    }
+    .home h2 {
+        top: -30%;
+        font-size: 50pt;
+        text-align: center;
+        text-indent: 0%;
     }
 
 
@@ -54,19 +68,7 @@ a:hover {
     opacity: 0.5;
 }
 
-.home h1 {
 
-    font-size: 100pt;
-    line-height: 250px;
-    text-align: center;
-    text-indent: 0%;
-}
-.home h2 {
-    top: -30%;
-    font-size: 50pt;
-    text-align: center;
-    text-indent: 0%;
-}
 header {
     height: 150px;
     margin-left: 25%;
@@ -98,9 +100,7 @@ iframe {
    margin: auto;
    margin-top: 5%;
 }
-nav {
-    margin-bottom: 5%;
-}
+
 
 .splash {
     position: fixed;
@@ -242,6 +242,21 @@ button {
         border-width: thin;
         padding: 10px;
     }
+    .home {
+        background-size: 100vw;
+        background-color: white;
+        min-height: 50%;
+
+    }
+    .home h1 {
+        font-size: 30pt;
+        line-height: 150px;
+    }
+    .home h2 {
+        font-size: 20pt;
+    }
+
+
  
  
  
