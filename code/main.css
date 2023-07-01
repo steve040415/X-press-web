@@ -34,10 +34,60 @@
         text-align: center;
         text-indent: 0%;
     }
+    .home {
+        background-color: blue;
+    }
+    html {
+        border-width: 3vw;
+        border-image-width: 3vw;
+    }
 
 
 
 }
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    nav a{
+        border-style: solid;
+        margin: auto;
+        border-top: none;
+        border-radius: 20%;
+        border-width: thin;
+        display: block;
+        font-size: 25pt;
+        padding: 2%;
+        box-shadow: 2px 2px 2px 2px;
+        color: black;
+        text-decoration: none;
+        max-height: 50%;
+    }
+    nav {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        margin-bottom: none;
+    }
+    .home h1 {
+
+        font-size: 50pt;
+        line-height: 250px;
+        text-align: center;
+        text-indent: 0%;
+    }
+    .home h2 {
+        top: -30%;
+        font-size: 30pt;
+        text-align: center;
+        text-indent: 0%;
+    }
+    .home {
+        background-color: transparent;
+        background-size: 100vw;
+        max-height: 100vh;
+        min-height: 30vh;
+    }
+}
+
+
 body {
     font-family: helvetica;
 }
@@ -48,20 +98,22 @@ body {
 
 .home {
     background-repeat: no-repeat;
-    border-radius: 5%;
+    border-radius: 0%;
     background-image: url("band-image.jpg"); 
     opacity: 0.75;
     background-position: top;
     color: white;
     border-style: solid;
     display: block;
-    height: 500px;
-    background-color: blue;
     width: 100%;
     margin: auto;
+    height: 50%;
 
 
     
+}
+main {
+    border-radius: 5%;
 }
 
 a:hover {
@@ -76,10 +128,11 @@ header {
     border-style: solid;
     border-radius: 20%;
     border-width: thin;
-    box-shadow: 2px 2px 2px 2px;
-    
-    
+
+
 }
+
+
 h2 {
     display: block;
     font-size: 25pt;
@@ -207,7 +260,13 @@ input:checked + .slider:before {
 button {
     display: none;
 }
-
+html {
+    border: 5vw solid;
+    border-image-width: 5vw;
+    border-image-source: url(../379924_10150893221900046_2053224794_n.jpg);
+    border-image-slice: 100;
+    position: top;
+}
 
 
 /*Media Queries*/
@@ -244,8 +303,8 @@ button {
     }
     .home {
         background-size: 100vw;
-        background-color: white;
-        min-height: 50%;
+        height: 20%;
+        background-color: blue;
 
     }
     .home h1 {
