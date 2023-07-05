@@ -1,17 +1,14 @@
 @media only screen and (min-width: 1000px) {
     nav a{
-        border-style: solid;
-        margin: auto;
-        border-top: none;
-        border-radius: 20%;
-        border-width: thin;
+        
         display: block;
-        font-size: 25pt;
-        padding: 2%;
-        box-shadow: 2px 2px 2px 2px;
-        color: black;
+        font-size: 15pt;
+        margin: auto;
+        color: white;
         text-decoration: none;
-        max-height: 50%;
+        max-height: 30%;
+        margin-left: 5px;
+        margin-right: 5px;
         
     
     
@@ -19,8 +16,13 @@
  
     nav {
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        margin-bottom: none;
+        grid-template-columns: auto auto auto auto auto 50%;
+        margin: auto;
+        background-color: blue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: left;
+        min-height: 64px;
     }
     .home h1 {
 
@@ -45,27 +47,36 @@
 
 
 
+
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
-    nav a{
-        border-style: solid;
-        margin: auto;
-        border-top: none;
-        border-radius: 20%;
-        border-width: thin;
+     a{
+        
+        
         display: block;
-        font-size: 20pt;
-        padding: 2%;
-        box-shadow: 2px 2px 2px 2px;
-        color: black;
+        font-size: 15pt;
+        margin: auto;
+        color: white;
         text-decoration: none;
-        max-height: 40%;
+        max-height: 30%;
+        margin-left: 5px;
+        margin-right: 5px;
+        
     }
-    nav {
+    nav{
         display: grid;
-        grid-template-columns: auto auto auto auto auto;
-        margin-bottom: none;
+        grid-template-columns: auto auto auto auto auto 50%;
+        margin: auto;
+        background-color: blue;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        justify-content: left;
+        min-height: 64px;
+        
+        
+        
+        
     }
     .home h1 {
 
@@ -212,7 +223,7 @@ iframe {
     width: 60px;
     height: 34px;
     margin: auto;
-    
+
     
     
 
@@ -220,17 +231,18 @@ iframe {
 }
 .group {
     display: flex;
-    justify-content: center;
 }
 .switch-box {
     
     color: white;
     max-height: 50%;
-    position: relative;
+    position: fixed;
     align-self: center;
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
+    justify-self: right;
+    
 
 
 }
@@ -284,9 +296,14 @@ html {
     border-image-source: url(../379924_10150893221900046_2053224794_n.jpg);
     border-image-slice: 100;
     position: top;
+    
+}
+main {
+    margin: 10px;
 }
 
-.group {
+
+nav h1 {
     display: none;
 }
 /*Media Queries*/
@@ -298,21 +315,22 @@ html {
         border-radius: none;
     }
     button {
-        display: block;
+        display: initial;
         text-align: right;
         max-width: 25%;
         margin-left: auto;
-        align-self: flex-start;
+        flex-direction: flex-start;
+        
         
         
        
         
 
     }
-    nav {
+    .main-nav {
         display: grid;
         grid-template-rows: auto auto auto auto;
-        text-align: right;
+        text-align: center;
 
 
     }
@@ -325,6 +343,7 @@ html {
         border-style: solid;
         border-width: thin;
         padding: 10px;
+        text-align: right;
     }
     .home {
         background-size: 100vw;
@@ -335,23 +354,25 @@ html {
     .home h1 {
         font-size: 30pt;
         line-height: 150px;
+    
     }
     .home h2 {
         display: none;
     }
     nav h1 {
-        display: initial;
+        display: block;
+        text-align: center;
         font-size: 30pt;
-        text-align: left;
         border-style: solid;
         margin: auto;
         border-width: thin;
         box-shadow: 2px 2px 2px 2px;
-        justify-self: flex-end;
+        
     
     }
     .group {
         display: flex;
+        height: auto;
     }
     
    
