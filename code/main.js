@@ -16,13 +16,13 @@ function buttonFunction() {
     }
 }
 const dropDown = document.querySelector('button');
-const navList = document.querySelectorAll("nav a");
-const nav = document.querySelector('nav');
+const navList = document.querySelectorAll("aside a");
+const nav = document.querySelector('aside');
 dropDown.addEventListener("click", navMenu);
 function navMenu() {
     if(getComputedStyle(navList[0]).display=='none') {
         for(let i=0; i<navList.length; i++) {
-            navList[i].style.display = "initial";
+            navList[i].style.display = "grid";
         }
     }
     else {
@@ -33,3 +33,26 @@ function navMenu() {
 
 
 }
+
+/*const home = document.getElementById("home");
+const hist = document.getElementById("history");
+const gallery = document.getElementById("gallery");
+const videos = document.getElementById("videos");
+const music = document.getElementById("music");
+
+const mediaQueryList = window.matchMedia("(max-width: 600px)");
+
+function add(e) {
+  if (e.matches) {
+    alert("hello world");
+    home.insertAdjacentHTML("beforebegin","<nav class='main-nav'>");
+    const mainnav = document.querySelector(".main-nav");
+    mainnav.appendChild(home);
+    mainnav.appendChild(music);
+    mainnav.appendChild(videos);
+    mainnav.appendChild(gallery);
+    mainnav.appendChild(hist);
+  }
+}
+
+mediaQueryList.addListener(add);*/
