@@ -39,6 +39,8 @@
     }
     .home {
         background-color: blue;
+        max-height: 600px;
+
     }
     body {
         border-width: 3vw;
@@ -81,28 +83,35 @@
         
         
     }
+ 
     .home h1 {
-
-        font-size: 50pt;
-        line-height: 250px;
-        text-align: center;
-        text-indent: 0%;
+        position: relative;
+        bottom: 25vh;
+       
     }
     .home h2 {
-        top: -30%;
+        position: relative;
         font-size: 30pt;
         text-align: center;
         text-indent: 0%;
+        bottom: 200px;
     }
     .home {
         background-color: transparent;
         background-size: 100vw;
-        max-height: 100vh;
-        min-height: 30vh;
+        max-height: 300px;
+        overflow: hidden;
+        display: flex;
     }
     aside {
         display: none;
     }
+    img {
+        justify-self: flex-start;
+        z-index: -1;
+    }
+
+   
     
 }
 
@@ -112,22 +121,36 @@ body {
 }
 
     
+img {
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation: animatedBackground 10s linear;
 
+
+    
+}
+
+/*@keyframes animatedBackground {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+  }*/
 
 
 .home {
     background-repeat: no-repeat;
     border-radius: 0%;
-    background-image: url("band-image.jpg"); 
+    /*background-image: url("X-PRESS.png");*/
     opacity: 0.75;
     background-position: top;
     color: white;
     border-style: solid;
-    display: block;
     width: 100%;
     margin: auto;
     height: 50%;
     background-color: blue;
+    overflow: hidden;
 
 
     
@@ -157,7 +180,6 @@ h2 {
     display: block;
     font-size: 25pt;
     position: relative;
-    top: -70%;
     text-align: center
 }
 h1 {
@@ -165,7 +187,6 @@ h1 {
     font-size: 50pt;
     text-align: center;
     position: relative;
-    top: -15%;
 }
 
 iframe {
@@ -175,7 +196,6 @@ iframe {
 }
 .home h2 {
     position: relative;
-    top: -135px;
 }
 
 
@@ -324,6 +344,8 @@ nav h1 {
 
 @media only screen and (max-width: 600px) {
 
+
+
     .not-phone {
         display: none;
     }
@@ -375,7 +397,7 @@ nav h1 {
     }
     .home {
         background-size: 100vw;
-        height: 20%;
+        max-height: 200px;
         background-color: blue;
 
     }
@@ -411,4 +433,9 @@ nav h1 {
  
 
 }
+@media only screen and (max-width: 350px) {
+    .switch-box {
+        position: relative;
 
+    }
+}
