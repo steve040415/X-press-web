@@ -101,18 +101,24 @@
         background-size: 100vw;
         max-height: 300px;
         overflow: hidden;
-        display: flex;
     }
     aside {
         display: none;
     }
-    img {
-        justify-self: flex-start;
-        z-index: -1;
-    }
+
 
    
     
+}
+
+img {
+    justify-self: flex-end;
+    z-index: -1;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -262,7 +268,7 @@ iframe {
     
     color: white;
     max-height: 50%;
-    position: fixed;
+    position: absolute;
     align-self: center;
     overflow: hidden;
     white-space: nowrap;
@@ -372,7 +378,7 @@ nav h1 {
 
     }
     .switch-box {
-        position: fixed;
+
         align-self: center;
         margin: 0px;
     }
