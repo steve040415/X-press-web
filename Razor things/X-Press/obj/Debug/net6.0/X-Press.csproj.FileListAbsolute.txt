@@ -29,3 +29,34 @@ C:\Users\macke\OneDrive\Desktop\Projects\X-Press\X-Press\obj\Debug\net6.0\refint
 C:\Users\macke\OneDrive\Desktop\Projects\X-Press\X-Press\obj\Debug\net6.0\X-Press.pdb
 C:\Users\macke\OneDrive\Desktop\Projects\X-Press\X-Press\obj\Debug\net6.0\X-Press.genruntimeconfig.cache
 C:\Users\macke\OneDrive\Desktop\Projects\X-Press\X-Press\obj\Debug\net6.0\ref\X-Press.dll
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\appsettings.Development.json
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\appsettings.json
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\X-Press.staticwebassets.runtime.json
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\X-Press.exe
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\X-Press.deps.json
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\X-Press.runtimeconfig.json
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\X-Press.dll
+C:\Projects\X-press-web\Razor things\X-Press\bin\Debug\net6.0\X-Press.pdb
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.csproj.AssemblyReference.cache
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.AssemblyInfoInputs.cache
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.AssemblyInfo.cs
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.csproj.CoreCompileInputs.cache
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.MvcApplicationPartsAssemblyInfo.cache
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.RazorAssemblyInfo.cache
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.RazorAssemblyInfo.cs
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets\msbuild.X-Press.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets\msbuild.build.X-Press.props
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.X-Press.props
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.X-Press.props
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets.build.json
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\staticwebassets.development.json
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\scopedcss\bundle\X-Press.styles.css
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\scopedcss\projectbundle\X-Press.bundle.scp.css
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.dll
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\refint\X-Press.dll
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.pdb
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\X-Press.genruntimeconfig.cache
+C:\Projects\X-press-web\Razor things\X-Press\obj\Debug\net6.0\ref\X-Press.dll

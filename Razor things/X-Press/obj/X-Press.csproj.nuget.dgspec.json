@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\X-Press\\X-Press\\X-Press.csproj": {}
+    "C:\\Projects\\X-press-web\\Razor things\\X-Press\\X-Press.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\X-Press\\X-Press\\X-Press.csproj": {
+    "C:\\Projects\\X-press-web\\Razor things\\X-Press\\X-Press.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\X-Press\\X-Press\\X-Press.csproj",
+        "projectUniqueName": "C:\\Projects\\X-press-web\\Razor things\\X-Press\\X-Press.csproj",
         "projectName": "X-Press",
-        "projectPath": "C:\\Projects\\X-Press\\X-Press\\X-Press.csproj",
+        "projectPath": "C:\\Projects\\X-press-web\\Razor things\\X-Press\\X-Press.csproj",
         "packagesPath": "C:\\Users\\macke\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\X-Press\\X-Press\\obj\\",
+        "outputPath": "C:\\Projects\\X-press-web\\Razor things\\X-Press\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\macke\\AppData\\Roaming\\NuGet\\NuGet.Config",

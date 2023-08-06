@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZCy/6fDBqAQEs+ZDnr5miCTDBU0Q3jwFXRr3IvDbkhOqtYbyZf6ukhheRcCXDd5TK+YaIlttaTAe2DyY9Z4yHw==",
+  "dgSpecHash": "Y0tJ/QPJeIt/p0ZqSgzOfyZ3/HvuhsEUSEE084RQ2r3lQr++u2O/qLHDci1gt8SlRVFwyJOdMB1jfcwq7CUukA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\X-Press\\X-Press\\X-Press.csproj",
+  "projectFilePath": "C:\\Projects\\X-press-web\\Razor things\\X-Press\\X-Press.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
