@@ -1,0 +1,324 @@
+@media only screen and (min-width: 1000px) {
+    
+    .home h1 {
+
+        font-size: 100pt;
+        line-height: 250px;
+        text-align: center;
+        text-indent: 0%;
+    }
+    .home h2 {
+        top: -30%;
+        font-size: 50pt;
+        text-align: center;
+        text-indent: 0%;
+    }
+    .home {
+        max-height: 600px;
+
+    }
+    body {
+        border-width: 3vw;
+        border-image-width: 3vw;
+    }
+    aside {
+        display: none;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+     
+        
+  
+ 
+    .home h1 {
+        position: relative;
+        bottom: 25vh;
+       
+    }
+    .home h2 {
+        position: relative;
+        font-size: 30pt;
+        text-align: center;
+        text-indent: 0%;
+        bottom: 200px;
+    }
+    .home {
+        background-color: transparent;
+        background-size: 100vw;
+        max-height: 300px;
+        overflow: hidden;
+    }
+    aside {
+        display: none;
+    }
+
+
+   
+    
+}
+
+body {
+    background-color: #dae2db;
+}
+
+img {
+    justify-self: flex-end;
+    z-index: -1;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    font-family: helvetica;
+}
+
+    
+img {
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation: animatedBackground 10s linear;
+
+
+    
+}
+
+/*@keyframes animatedBackground {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50px); }
+  }*/
+
+
+.home {
+    background-repeat: no-repeat;
+    border-radius: 0%;
+    /*background-image: url("X-PRESS.png");*/
+    opacity: 0.75;
+    background-position: top;
+    color: white;
+    border-style: solid;
+    width: 100%;
+    margin: auto;
+    height: 50%;
+    overflow: hidden;
+
+
+    
+}
+main {
+    border-radius: 5%;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+
+header {
+    height: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-radius: 20%;
+    border-width: thin;
+
+
+}
+
+
+h2 {
+    display: block;
+    font-size: 25pt;
+    position: relative;
+    text-align: center
+}
+h1 {
+    display: block;
+    font-size: 50pt;
+    text-align: center;
+    position: relative;
+}
+
+iframe {
+   display: block;
+   margin: auto;
+   margin-top: 5%;
+}
+.home h2 {
+    position: relative;
+}
+
+
+.splash {
+    position: fixed;
+    background-image: url("../logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: center center;
+    background-color: #dee0dc;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    line-height: 90vh;
+}
+.splash.display-none {
+    position: fixed;
+    z-index: -10;
+    opacity: 0;
+    transition: all 0.5s;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+
+}
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+.dark {
+    background-color: #181818;
+    color: white;
+}
+.dark a {
+    background-color: grey;
+}
+.dark header {
+    box-shadow: none;
+    border-color: black;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: auto;
+
+    
+    
+
+    
+}
+.group {
+    display: flex;
+}
+
+button {
+    display: none;
+}
+
+main {
+    margin: 10px;
+}
+
+
+nav h1 {
+    display: none;
+}
+
+.other {
+    max-height: 100px;
+    border-style: none;
+    font-size: 25pt;
+    line-height: 20px;
+}
+.other h2 {
+    font-size: 20pt;
+}
+
+
+
+
+
+
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .not-phone {
+        display: none;
+    }
+
+    aside {
+        
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+
+    }
+    
+    button {
+        display: initial;
+        text-align: center;
+        max-width: 25%;
+        margin-left: auto;
+        flex-direction: flex-end;
+        height: 50px;
+        
+        
+       
+       
+        
+
+    }
+    .switch-box {
+
+        align-self: center;
+        margin: 0px;
+    }
+
+    .home {
+        background-size: 100vw;
+        max-height: 200px;
+     
+
+    }
+    .home h1 {
+        font-size: 30pt;
+        line-height: 150px;
+    
+    
+    }
+    .home h2 {
+        display: none;
+    }
+ 
+    }
+    .other h2 {
+        display: none;
+    }
+ 
+    
+   
+
+ 
+ 
+ 
+ 
+
+}
+@media only screen and (max-width: 350px) {
+    .switch-box {
+        position: relative;
+
+    }
+}
