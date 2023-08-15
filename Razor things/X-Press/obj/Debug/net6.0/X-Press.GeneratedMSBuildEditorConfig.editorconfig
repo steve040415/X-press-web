@@ -16,20 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Projects\X-press-web\Razor things\X-Press
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Projects/X-press-web/Razor things/X-Press/Back-to-the-80s.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QmFjay10by10aGUtODBzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Projects/X-press-web/Razor things/X-Press/Gallery.cshtml]
-build_metadata.AdditionalFiles.TargetPath = R2FsbGVyeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Projects/X-press-web/Razor things/X-Press/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = aW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/X-press-web/Razor things/X-Press/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/X-press-web/Razor things/X-Press/Pages/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/X-press-web/Razor things/X-Press/Pages/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Projects/X-press-web/Razor things/X-Press/Pages/Index.cshtml]
