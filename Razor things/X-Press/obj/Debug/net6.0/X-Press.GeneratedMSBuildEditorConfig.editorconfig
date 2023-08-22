@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Projects\X-press-web\Razor things\X-Press
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Projects/X-press-web/Razor things/X-Press/Components/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/X-press-web/Razor things/X-Press/Back-to-the-80s.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFjay10by10aGUtODBzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/X-press-web/Razor things/X-Press/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = R2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Projects/X-press-web/Razor things/X-Press/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = aW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

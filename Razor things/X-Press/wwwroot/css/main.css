@@ -11,6 +11,13 @@
     .home {
         width: 100%;
     }
+    .home h1 {
+        position: relative;
+        bottom: 300px;
+    }
+    .home h2 {
+        bottom: 300px;
+    }
 
 
 
@@ -43,7 +50,10 @@
     aside {
         display: none;
     }
-
+    h1 {
+        position: relative;
+        bottom: 300px;
+    }
 
    
     
@@ -58,10 +68,7 @@ img {
     z-index: -1;
 }
 
-.home {
-    display: flex;
-    justify-content: center;
-}
+
 
 
 body {
@@ -88,12 +95,10 @@ img {
 
 .home {
     background-repeat: no-repeat;
-    border-radius: 0%;
     /*background-image: url("X-PRESS.png");*/
     opacity: 0.75;
     background-position: top;
     color: white;
-    border-style: solid;
     width: 100%;
     margin: auto;
     height: 50%;
@@ -110,17 +115,15 @@ a:hover {
     opacity: 0.5;
 }
 
-
-header {
-    height: 150px;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-style: solid;
-    border-radius: 20%;
-    border-width: thin;
-
-
+h1 {
+    text-align: center;
 }
+h2 {
+    text-align: center;
+}
+
+
+
 
 
 
@@ -204,9 +207,7 @@ main {
 }
 
 
-nav h1 {
-    display: none;
-}
+
 
 
 

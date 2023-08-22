@@ -8,14 +8,29 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\main.css" />
-    <None Include="wwwroot\css\normalize.css" />
-    <None Include="wwwroot\js\main.js" />
-    <None Include="wwwroot\NewFolder\X-PRESS.png" />
+    <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="wwwroot\NewFolder\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\NewFolder\NewFolder\" />
+    <Content Remove="wwwroot\_Imports.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\main.css" />
+    <None Include="wwwroot\css\normalize.css" />
+    <None Include="wwwroot\js\main.js" />
+    <None Include="wwwroot\_Imports.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="wwwroot\_Imports.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\_Imports.razor" />
   </ItemGroup>
 
 </Project>
